@@ -1,6 +1,6 @@
 # Policy Optimization with demonstrations (POfD)
 
-This repository is a reimplementation of [Policy Optimization with demonstrations](http://proceedings.mlr.press/v80/kang18a.html).
+This repository is a reimplementation of [Policy Optimization with demonstrations](http://proceedings.mlr.press/v80/kang18a.html) (ICML 2018).
 
 ## Dependencies
 This code is based on [OpenAI baselines](https://github.com/openai/baselines). In addtion, it requires the following:
