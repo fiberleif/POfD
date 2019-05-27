@@ -113,6 +113,7 @@ def main(args):
               args.pretrained,
               args.BC_max_iter,
               args.num_epochs,
+              args.eval_interval,
               args.timesteps_per_batch,
               task_name,
               )
