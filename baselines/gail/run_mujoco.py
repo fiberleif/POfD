@@ -55,7 +55,7 @@ def argsparser():
     parser.add_argument('--num_epochs', help='Number of training epochs', type=int, default=1e3)
     parser.add_argument('--eval_interval', help='evaluation interval', type=int, default=10)
     parser.add_argument('--timesteps_per_batch', help='timesteps per epoch', type=int, default=1000)
-    parser.add_argument('--reward_freq', help='env delay num', type=int, default=10)
+    parser.add_argument('--reward_freq', help='env delay num', type=int, default=20)
     parser.add_argument('--reward_coeff', type=float, default=0.1)
     return parser.parse_args()
 
